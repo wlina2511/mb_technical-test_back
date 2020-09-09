@@ -1,12 +1,6 @@
 # MadBox project : Node.Js
 
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
 ###  Time spent on this part
 
 I have spent a total of around **20** hours on Node.Js, split as following :
