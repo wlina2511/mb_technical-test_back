@@ -6,6 +6,7 @@ const dbName = "players";
 const viewUrl = "_design/all/_view/all"
 app.use(express.json());
 
+// Might be useless
 const NodeCouchDb = require ('node-couchdb');
 const couch = new NodeCouchDb({
     auth : {
