@@ -1,0 +1,21 @@
+{
+  "name": "madboxx",
+  "version": "1.0.0",
+  "description": "First Iteration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William LINA",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "boom": "^7.3.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.3",
+    "nano": "^8.2.2",
+    "node-couchdb": "^1.3.0",
+    "touch": "^3.1.0"
+  }
+}
