@@ -30,7 +30,7 @@ But in the end, I'm very proud of what I have achieved as I started from scratch
 
 ### What I would do to push the project a step forward
 
-For now, I havn't implemented a data type verification, also known as **"schemas"**. I tried to do so, but in the end it wasn't working so I dropped the idea. What those schema were doing was verifying that the data provided by the client were the right type and returned an error if they were not.
+For now, I haven't implemented a data type verification, also known as **"schemas"**. I tried to do so, but in the end it wasn't working so I dropped the idea. What those schema were doing was verifying that the data provided by the client were the right type and returned an error if they were not.
 
 That brings me to my second way of improving the project, a **better error handling**. As of now, most of my errors are dealt with a console.log, so it should be pushed further with plugins like **"Boom"**.
 
@@ -40,7 +40,8 @@ Lastly, I would try to delegate functions into multiples files instead of one, b
 
 ##### Node.Js installation
 
-First you need to install [Node.JS].
+First you need to install [Node.Js].
+
 Just go on the link above and install the appropriate version.
 You can type 
 ```sh
@@ -53,6 +54,8 @@ You need to go on [CouchDB Install] website and download an appropriate version 
 It is important that during the CouchDB installation, you specify "admin" as **both** your username and your password.
 
 This will then launch CouchDB as a service which will always be running, and is accessible by going to <http://localhost:5984/_utils/> and logging with username : admin / password : admin.
+
+Note : If you chose to give a different username and password to CouchDB, you'd have to update them in the **app.js** and **couchdb.js** files.
 
 ##### Server startup
 Open a terminal in the directory where you cloned the project and type :
@@ -68,7 +71,7 @@ You should see this in the console :
 - the third one tells us that the view we will use to retrieve the players has been initialized correctly
 
 You are then good to go ! 
-Each time a player will be added/deleted/updated, you will be notified in the console and also displayed with the full database.
+Each time a player will be added/deleted/updated, you will be notified in the console and also displayed the full database.
 
 Have fun !
 
@@ -83,7 +86,7 @@ Here are the tutorials I used :
 - [MongoDB tutorial that I ended up scrapping]
 
 [//]: #
-
+   [Node.Js]: <https://nodejs.org/en/>
    [Couch Tutorial]: <https://medium.com/yld-blog/node-js-databases-using-couchdb-5135f6f45dc1>
    [CouchDB Install]: <https://couchdb.apache.org/>
    [Express database]: <https://expressjs.com/fr/guide/database-integration.html>
